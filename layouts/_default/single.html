@@ -19,8 +19,9 @@
 					</div>
 
 					{{ .Content }}
-
-					<div class="fb-post" data-href="https://www.facebook.com/shawn.wang.45/posts/2399680020286511" data-width="500" data-show-text="false"><blockquote cite="https://developers.facebook.com/shawn.wang.45/posts/2399680020286511" class="fb-xfbml-parse-ignore"></blockquote></div>
+					{{ if gt .Params.fb 0 }}
+					<div class="fb-post" data-href="https://www.facebook.com/shawn.wang.45/posts/{{ .Params.fb }}" data-width="500" data-show-text="false"><blockquote cite="https://developers.facebook.com/shawn.wang.45/posts/{{ .Params.fb }}" class="fb-xfbml-parse-ignore"></blockquote></div>
+					{{ end }}
 
 				</div>
 
