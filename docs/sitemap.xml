@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://shawn111.eco-city.tw/posts/my-first-post/</loc>
-    <lastmod>2019-12-02T12:19:13+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://shawn111.eco-city.tw/posts/</loc>
     <lastmod>2019-12-02T12:19:13+08:00</lastmod>
     <priority>0</priority>
@@ -22,6 +17,16 @@
   <url>
     <loc>http://shawn111.eco-city.tw/posts/naming/</loc>
     <lastmod>2019-12-02T12:19:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shawn111.eco-city.tw/posts/citizen/</loc>
+    <lastmod>2019-11-30T07:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shawn111.eco-city.tw/posts/my-first-post/</loc>
+    <lastmod>2019-08-29T19:00:00+08:00</lastmod>
   </url>
   
   <url>
