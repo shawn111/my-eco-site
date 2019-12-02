@@ -1,8 +1,26 @@
 baseURL = "http://shawn111.eco-city.tw/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "王榮祥 鄰長阿伯 翠屏45"
 description = "A Hugo Theme built with Bootstrap"
-sidebarDescription = "A Hugo Theme built with Bootstrap"
-sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
 theme = "strange-case"
 publishDir = "docs"
+
+
+[params]
+        colorScheme = "scheme-darkbrown"
+        dateformat = "Jan 2, 2006"
+        description = "A Hugo Theme built with Bootstrap"
+        sidebarDescription = "A Hugo Theme built with Bootstrap"
+        sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+        piwikSiteID = ""
+        piwikURL = ""
+
+[[menu.main]]
+        name = "Hugo"
+        post = "<span class='glyphicon glyphicon-fire'></span>"
+        url = "http://gohugo.io"
+
+[[menu.main]]
+        name = "Bootstrap"
+        post = "<span class='glyphicon glyphicon-ok'></span>"
+        url = "http://getbootstrap.com"
